@@ -3,5 +3,7 @@ kind: Service
 metadata:
   name: external-service
 spec:
+  type: ExternalName
+  externalName: someapi.somecompany.com
   ports:
     - port: 80
